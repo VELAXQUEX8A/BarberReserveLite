@@ -1,0 +1,24 @@
+:root {
+  /* Paleta Dorado - Negro - Blanco */
+  --gold-primary: #D4AF37;
+  --gold-secondary: #FFD700;
+  --gold-light: #F7EF8A;
+  --gold-dark: #B8860B;
+  --black-primary: #000000;
+  --black-secondary: #1A1A1A;
+  --black-light: #2D2D2D;
+  --white-primary: #FFFFFF;
+  --white-secondary: #F8F9FA;
+  --gray-light: #E9ECEF;
+  --gray-medium: #6C757D;
+  
+  /* Gradientes */
+  --gradient-gold: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+  --gradient-dark: linear-gradient(135deg, #000000 0%, #1A1A1A 100%);
+  --gradient-gold-dark: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+  
+  /* Sombras */
+  --shadow-gold: 0 10px 30px rgba(212, 175, 55, 0.3);
+  --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --shadow-light: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
