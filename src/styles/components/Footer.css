@@ -1,0 +1,97 @@
+.footer {
+  background: linear-gradient(180deg, #000000 0%, #111111 100%);
+  color: #f1f1f1;
+  padding: 3rem 2rem 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  border-top: 2px solid #d4af37;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #d4af37;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.footer-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.footer-section h3 {
+  color: #d4af37;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.3rem;
+  width: fit-content;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.footer-section a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #d4af37;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer-socials a {
+  display: inline-block;
+  background: #222;
+  border: 1px solid #333;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.footer-socials a:hover {
+  background: #d4af37;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.footer-bottom strong {
+  color: #d4af37;
+}

@@ -6,6 +6,7 @@ import ServicesSection from './components/ServicesSection';
 import BarbersSection from './components/BarbersSection';
 import BookingForm from './components/BookingForm';
 import AdminPanel from './components/AdminPanel';
+import Footer from './components/Footer';
 import './styles/colors.css';
 
 // Componente para la página principal
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/admin" element={<AdminPanel />} />
           </Routes>
+          <Footer/>
         </div>
       </Router>
     </BookingProvider>
